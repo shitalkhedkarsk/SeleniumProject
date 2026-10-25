@@ -14,10 +14,10 @@ public class HomeTest extends BaseTest
 		@Nullable
 		String title = driver.getTitle();
 		System.out.println("Page Title: "+title);
-		Assert.assertEquals(
-				title.toLowerCase().concat("flipkart"),
-				"Flipkart title verification failed."
-				);
+		Assert.assertTrue(
+				title.toLowerCase().contains("flipkart"),
+	            "Flipkart title verification failed."
+	        );
 		
 	}
 }

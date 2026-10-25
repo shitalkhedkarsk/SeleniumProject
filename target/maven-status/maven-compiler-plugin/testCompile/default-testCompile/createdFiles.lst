@@ -1,0 +1,4 @@
+com\testing\base\BaseTest.class
+com\testing\tests\LoginTest.class
+com\testing\tests\HomeTest.class
+com\testing\tests\SearchTest.class
